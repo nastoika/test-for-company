@@ -1,0 +1,37 @@
+.descr{
+    background: linear-gradient(100deg, rgb(82, 88, 129) 0%, rgb(34, 64, 92) 100%);  
+    width: 90%;
+    margin: 30px auto;
+    border-radius: 10px;
+    height: 430px;
+    display: flex;
+    box-shadow: 0px 0px 18px 9px rgba(51, 51, 51, 0.1);
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    margin: 30px;
+}
+.title{
+    font-size: 48px;
+    font-weight: 600;
+    margin: 20px 0;
+    color: rgb(223, 223, 223)
+}
+.text{
+    color: white;
+    margin: 20px 0;
+    font-size: 23px;
+    text-indent: 30px;
+}
+.image{
+    background-image: url(https://proforientator.ru/publications/articles/it_sfera.jpg);
+    width:620px;
+    height: 320px;
+    background-size: contain;
+    margin: 80px 0 0 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 18px 9px rgba(0, 0, 0, 0.2);
+}

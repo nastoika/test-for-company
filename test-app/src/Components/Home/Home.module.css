@@ -1,0 +1,36 @@
+
+.home{
+    color: rgb(32, 32, 32);
+  width: 90%;
+  border-radius: 15px;
+   margin: 30px auto 0;
+   padding: 0 0 40px 0;
+   color: rgb(255, 255, 255);
+   background-image: url(https://damion.club/uploads/posts/2022-01/thumbs/1642481535_65-damion-club-p-tekhno-foni-65.jpg);
+   background-size:cover;
+  }
+  
+  .homeTitle{
+    font-size: 46px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .langs{
+    display: flex;
+    width: 65%;
+    color: rgb(101, 199, 140);
+    font-size: 22px;
+    font-weight: 500;
+    margin: 40px auto 20px;
+    justify-content: space-around;
+  }
+  
+  .descr{
+    font-size: 20px;
+    margin: 0 60px;
+  
+  }
+  p{
+    text-indent: 40px;
+  }

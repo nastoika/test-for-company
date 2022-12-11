@@ -1,0 +1,27 @@
+.profile{
+    /* background-image: url(https://www.meme-arsenal.com/memes/21b0cf1fc474f781221766637e07358c.jpg); */
+    background-image: url(https://img.freepik.com/free-vector/cartoon-nature-night-time-landscape-background_107791-13861.jpg?w=2000);
+    background-size: cover;
+    width: 90%;
+    height: 350px;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+
+.container{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    background: linear-gradient(120deg, rgb(68, 86, 133) 0%, rgb(93, 133, 130) 100%);
+    border-radius: 10px;
+    height: 200px;
+}
+.avatar{
+    background-image: url(https://pics.livejournal.com/eyemirror/pic/00005ebe);
+    background-size: contain;
+    border-radius: 70px;
+    width: 100px;
+    margin: 10px 20px;
+    height: 100px;
+}
+
