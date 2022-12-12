@@ -1,0 +1,29 @@
+.dataTable{
+    margin: 20px auto 10px;
+    background-color: white;
+    width: 60%;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    height: 520px;
+    box-shadow: 0px 0px 18px 9px rgba(51, 51, 51, 0.2);
+
+}
+td,th{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(41, 41, 41);
+}
+
+tr td:first-child{
+    position: sticky;
+    background-color: white;
+    left: 0;
+}
+
+.header{
+    z-index: 10;
+    position: sticky;
+    top: 0;
+    color: rgb(223, 223, 223);
+    background: linear-gradient(100deg, rgb(82, 88, 129) 0%, rgb(34, 64, 92) 100%);  
+}

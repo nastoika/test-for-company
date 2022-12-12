@@ -37,6 +37,7 @@ const Login = ({ setIsLoggedIn, setUserName }) => {
         <div className={classes.title}>Authorization</div>
         <div>
           <input
+            className={classes.inputLogin}
             type="text"
             placeholder="Enter your login"
             onChange={handleLoginChange}
@@ -45,6 +46,7 @@ const Login = ({ setIsLoggedIn, setUserName }) => {
         </div>
         <div>
           <input
+            className={classes.inputLogin}
             type="password"
             placeholder="Enter your password"
             onChange={handlePasswordChange}

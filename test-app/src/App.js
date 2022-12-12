@@ -7,8 +7,9 @@ import Profile from './Components/Profile/Profile';
 import Info from './Components/Info/Info';
 import { BrowserRouter, Route } from 'react-router-dom';
 import { Routes } from 'react-router-dom';
-import Calendar from './Components/Calendar/Calendar';
+import Data from './Components/Data/Data';
 import Login from './Components/Login/Login';
+import data from './data.json';
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(
@@ -33,8 +34,8 @@ function App() {
           />
           <Route path="/info" element={<Info />} />
           <Route
-            path="/calendar"
-            element={<Calendar isLoggedIn={isLoggedIn} />}
+            path="/data"
+            element={<Data data={data} isLoggedIn={isLoggedIn} />}
           />
           <Route
             path="/login"
